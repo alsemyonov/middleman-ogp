@@ -9,3 +9,7 @@ class String
     gsub(/^#{scan(/^\s*/).min_by{|l|l.length}}/, "").sub(/\n$/, '')
   end
 end
+
+RSpec.configure do |config|
+  config.expect_with(:rspec) { |c| c.syntax = [:should, :expect] }
+end

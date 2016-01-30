@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem "middleman-core", '~> 3.2'
-gem "middleman-blog", '~> 3.5'
+gem "middleman-core"
+gem "middleman-cli"
+gem "middleman-blog", '~> 4.0'
 
 # Specify your gem's dependencies in middleman-ogp.gemspec
 gemspec
@@ -16,6 +17,8 @@ gem "aruba",    "~> 0.5.1"
 gem "rspec"
 
 gem "slim"
+
+gem 'redcarpet'
 
 # Code Quality
 gem "cane", :platforms => [:mri_19, :mri_20], :require => false
