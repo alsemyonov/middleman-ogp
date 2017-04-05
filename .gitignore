@@ -1,18 +1,28 @@
+## macOS
+
 .DS_Store
-coverage
-rdoc
-pkg
+
+## Ruby
+
+/pkg/*.gem
+.ruby-version
+Gemfile.lock
+
+## Vim
+
+.*.swp
+
+## Sass, SCSS
+
 .sass-cache
 .sassc
-.tmp
-Gemfile.lock
-docs
-.rbenv-*
-.*.swp
-build
-doc
+
+## YARD
+
 .yardoc
+/doc
+/rdoc
+
+build
+coverage
 tmp
-Makefile
-.mm-pid-*
-*.gem
